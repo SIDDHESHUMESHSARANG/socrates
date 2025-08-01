@@ -1,3 +1,5 @@
 dotenv
 groq
-pptx
+python-pptx
+Pillow
+requests
