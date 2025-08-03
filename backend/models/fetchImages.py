@@ -1,7 +1,7 @@
 import os
-from dotenv import load_dotenv # type: ignore
-from groq import Groq # type: ignore
-from tavily import TavilyClient # type: ignore
+from dotenv import load_dotenv
+from groq import Groq
+from tavily import TavilyClient
 
 load_dotenv()
 

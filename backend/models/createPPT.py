@@ -1,11 +1,11 @@
 import re
-from pptx import Presentation # type: ignore
-from pptx.util import Pt, Inches # type: ignore
-from pptx.enum.text import MSO_AUTO_SIZE, PP_ALIGN # type: ignore
-from pptx.dml.color import RGBColor # type: ignore
-import requests # type: ignore
+from pptx import Presentation
+from pptx.util import Pt, Inches
+from pptx.enum.text import MSO_AUTO_SIZE, PP_ALIGN
+from pptx.dml.color import RGBColor
+import requests
 from io import BytesIO
-from PIL import Image  # type: ignore
+from PIL import Image 
 
 def createPresentation(groq_content, image_data_list, output_filename): 
     prs = Presentation()
