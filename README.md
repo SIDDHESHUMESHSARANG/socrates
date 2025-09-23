@@ -1,5 +1,5 @@
 # AI-Presentation-Generator
-##### `powered by llama3-8b-8192`
+##### `powered by llama-3.1-8b-instant`
 
 A Python tool that converts user prompts into PowerPoint slides.
 
@@ -10,5 +10,6 @@ A Python tool that converts user prompts into PowerPoint slides.
 
 ## Usage
 Run `python app.py`, enter topic and slide count, and the `.pptx` file is generated.
+
 
 Built using `python-pptx`
