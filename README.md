@@ -8,6 +8,10 @@ A Python tool that converts user prompts into PowerPoint slides.
 - Basic text formatting for presentations
 - Latest data used by the ai-model
 
+## Sample Slide
+
+<img src="imgs/sampleppt.png" width=700 height=500/>
+
 ## Usage
 Run `python demo.py`, enter topic and slide count, and the `.pptx` file is generated.
 
