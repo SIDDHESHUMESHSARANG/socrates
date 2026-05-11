@@ -10,7 +10,7 @@ A Python tool that converts user prompts into PowerPoint slides.
 
 ## Sample Slide
 
-<img src="imgs/sampleppt.png" width=700 height=500/>
+<img src="imgs/sampleppt.png"/>
 
 ## Usage
 Run `python demo.py`, enter topic and slide count, and the `.pptx` file is generated.
