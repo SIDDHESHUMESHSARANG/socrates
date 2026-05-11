@@ -1,5 +1,5 @@
-# AI-Presentation-Generator
-##### `powered by llama-3.1-8b-instant`
+# Socrates - AI Slides Generator
+##### `powered by openai/gpt-oss-120b`
 
 A Python tool that converts user prompts into PowerPoint slides.
 
@@ -13,4 +13,6 @@ Run `python demo.py`, enter topic and slide count, and the `.pptx` file is gener
 
 
 Built using `python-pptx`
+
+Last Updated: 11th May 2026
 

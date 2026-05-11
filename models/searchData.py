@@ -15,10 +15,11 @@ def getPPTData(prompt, slideNumber):
         "Do not include slide numbers, extra explanations, or formatting outside of headings and bullet points. "
         "STRICTLY: Only return the presentation content in the specified format. "
         "Example format:\n**Heading**\n• Point one\n• Point two\n..."
+        "Add one line gap between each bullet point"
     )
 
     response = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
+        model="openai/gpt-oss-120b",
         messages=[
             {"role": "system", "content": "You are a helpful assistant that generates presentation content."},
             {"role": "user", "content": system_prompt}
